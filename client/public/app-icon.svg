@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Expense Tracker App Icon</title>
+  <desc id="desc">A modern app icon showing a wallet with a rising chart and coin.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1a6df2"/>
+      <stop offset="100%" stop-color="#0b2d82"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#edf4ff" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="chart" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#7ef0b7"/>
+      <stop offset="100%" stop-color="#20c997"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <circle cx="118" cy="110" r="62" fill="rgba(255,255,255,0.12)"/>
+  <circle cx="414" cy="388" r="72" fill="rgba(255,255,255,0.08)"/>
+
+  <g transform="translate(72 84)">
+    <rect x="0" y="96" width="368" height="228" rx="34" fill="url(#card)"/>
+    <rect x="0" y="96" width="368" height="70" rx="34" fill="rgba(35, 87, 214, 0.08)"/>
+    <rect x="26" y="122" width="126" height="24" rx="12" fill="#dfeaff"/>
+    <rect x="26" y="172" width="106" height="16" rx="8" fill="#dfeaff"/>
+
+    <rect x="236" y="128" width="98" height="72" rx="18" fill="#1e5fe6"/>
+    <circle cx="285" cy="164" r="22" fill="#fff" fill-opacity="0.18"/>
+    <path d="M270 166l10 10 24-28" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <path d="M42 285l60-58 56 42 74-88 48 35 52-52" fill="none" stroke="url(#chart)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="42" cy="285" r="10" fill="#20c997"/>
+    <circle cx="102" cy="227" r="10" fill="#20c997"/>
+    <circle cx="158" cy="269" r="10" fill="#20c997"/>
+    <circle cx="232" cy="181" r="10" fill="#20c997"/>
+    <circle cx="280" cy="216" r="10" fill="#20c997"/>
+    <circle cx="332" cy="164" r="10" fill="#20c997"/>
+
+    <g transform="translate(34 26)">
+      <rect x="0" y="0" width="84" height="52" rx="16" fill="#91d7ff" fill-opacity="0.32"/>
+      <path d="M20 26h44" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
+      <path d="M24 14h18v24H24z" fill="none" stroke="#fff" stroke-width="6" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

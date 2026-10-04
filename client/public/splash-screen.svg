@@ -1,0 +1,34 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1242 2688">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1a6df2"/>
+      <stop offset="100%" stop-color="#0b2d82"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.96"/>
+      <stop offset="100%" stop-color="#eaf3ff" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1242" height="2688" fill="url(#bg)"/>
+  <circle cx="240" cy="260" r="160" fill="rgba(255,255,255,0.08)"/>
+  <circle cx="1085" cy="2300" r="230" fill="rgba(255,255,255,0.08)"/>
+  <rect x="310" y="980" width="622" height="622" rx="140" fill="url(#panel)"/>
+  <g transform="translate(433 1080)">
+    <rect x="0" y="110" width="380" height="234" rx="34" fill="#fff" opacity="0.96"/>
+    <rect x="24" y="136" width="120" height="20" rx="10" fill="#dfeaff"/>
+    <rect x="24" y="176" width="110" height="14" rx="7" fill="#dfeaff"/>
+    <path d="M30 280l60-58 58 42 72-88 56 36 54-54" fill="none" stroke="#20c997" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="30" cy="280" r="10" fill="#20c997"/>
+    <circle cx="90" cy="222" r="10" fill="#20c997"/>
+    <circle cx="148" cy="264" r="10" fill="#20c997"/>
+    <circle cx="220" cy="176" r="10" fill="#20c997"/>
+    <circle cx="276" cy="212" r="10" fill="#20c997"/>
+    <circle cx="330" cy="158" r="10" fill="#20c997"/>
+    <rect x="0" y="0" width="88" height="54" rx="18" fill="#9ad7ff" opacity="0.35"/>
+    <path d="M22 28h42" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
+    <path d="M26 15h18v26H26z" fill="none" stroke="#fff" stroke-width="6" stroke-linejoin="round"/>
+  </g>
+  <text x="621" y="1880" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="112" font-weight="700">Expense Tracker</text>
+  <text x="621" y="2010" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="500">Track every rupee wisely</text>
+</svg>
